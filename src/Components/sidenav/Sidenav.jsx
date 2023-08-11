@@ -5,15 +5,15 @@ import LinksTemplate from "./Links_Template";
 
 const sidebar = () => {
 	return (
-		<div className="flex flex-col  gap-8 p-6 w-60 border h-screen">
+		<div className="flex flex-col  gap-5 pt-3 p-6 w-[304px] border h-screen">
 			{/* Logo */}
 			<div className="flex gap-3 ">
-				<FontAwesomeIcon icon={faGoogleDrive} size="2x"></FontAwesomeIcon>
+				<img src="./drive.svg" className="w-12 object-cover" alt="" />
 				<p className=" text-2xl">Drive</p>
 			</div>
 
 			{/* New Button */}
-			<div className="rounded-2xl font-medium shadow-md w-28  text-lg h-16 border flex justify-evenly items-center ">
+			<div className="rounded-2xl font-medium shadow-md w-[6.25rem] bg-white  text-lg h-[3.75rem] border flex justify-evenly items-center ">
 				<FontAwesomeIcon icon={faPlus} size="lg"></FontAwesomeIcon>
 				<p className="">New</p>
 			</div>
