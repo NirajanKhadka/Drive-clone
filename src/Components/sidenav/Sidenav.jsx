@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGoogleDrive } from "@fortawesome/free-brands-svg-icons";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import LinksTemplate from "./Links_Template";
 
 const sidebar = () => {
 	return (
@@ -12,12 +13,15 @@ const sidebar = () => {
 			</div>
 
 			{/* New Button */}
-			<div className="w-24 rounded-2xl bg-slate-800 h-14 border flex justify-evenly items-center ">
+			<div className="rounded-2xl font-medium shadow-md w-28  text-lg h-16 border flex justify-evenly items-center ">
 				<FontAwesomeIcon icon={faPlus} size="lg"></FontAwesomeIcon>
 				<p className="">New</p>
 			</div>
 
-			{/*  */}
+			{/* Side Bar LInks  */}
+			<div className="">
+				<LinksTemplate />
+			</div>
 		</div>
 	);
 };

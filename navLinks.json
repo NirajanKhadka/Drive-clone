@@ -1,0 +1,50 @@
+{
+  "sidenavLinks": [
+    {
+      "id": "myDrive",
+      "title": "My Drive",
+      "icon": "./sideLinks/myDrive.svg"
+    },
+    {
+      "id": "sharedDrives",
+      "title": "Shared Drives",
+      "icon": "./sideLinks/sharedDrives.svg"
+    },
+    {
+      "id": "computers",
+      "title": "Computers",
+      "icon": "./sideLinks/computers.svg"
+    },
+    {
+      "id": "sharedWithMe",
+      "title": "Shared with Me",
+      "icon": "./sideLinks/sharedWithMe.svg"
+    },
+    {
+      "id": "recent",
+      "title": "Recent",
+      "icon": "./sideLinks/recent.svg"
+    },
+    {
+      "id": "starred",
+      "title": "Starred",
+      "icon": "./sideLinks/starred.svg"
+    },
+    {
+      "id": "spam",
+      "title": "Spam",
+      "icon": "./sideLinks/spam.svg"
+    },
+    {
+      "id": "trash",
+      "title": "Trash",
+      "icon": "./sideLinks/trash.svg"
+    },
+    {
+      "id": "Storage",
+      "title": "Storage",
+      "icon": "./sideLinks/storage.svg"
+    }
+
+  ]
+}
