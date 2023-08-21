@@ -15,7 +15,7 @@ const sidebar = () => {
 			{/* New Button */}
 			<button
 				id="newButton"
-				className="rounded-2xl font-medium shadow-md w-[6.5rem] bg-white  text-lg h-[3.75rem] border flex justify-evenly items-center  hover:shadow-xl relative transition-shadow transition-opacity"
+				className="rounded-2xl font-medium shadow-md w-[6.5rem] bg-white  text-lg h-[3.75rem] border flex justify-evenly items-center  hover:shadow-xl relative transition-opacity"
 			>
 				<FontAwesomeIcon icon={faPlus} size="lg"></FontAwesomeIcon>
 				<p className="">New</p>
