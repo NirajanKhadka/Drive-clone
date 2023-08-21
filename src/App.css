@@ -8,3 +8,19 @@
 body{
   background-color: #f7f9fc;
 }
+
+#newButton {
+  box-shadow: 0 4px 9px -6px black;
+}
+#newButton:hover {
+  box-shadow: 0 4px 12px -5px black;
+}
+#newButton:hover::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(66, 81, 131, 0.05);
+  border-radius: 1rem;
+}
+

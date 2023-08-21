@@ -5,7 +5,7 @@ import LinksTemplate from "./Links_Template";
 
 const sidebar = () => {
 	return (
-		<div className="flex flex-col  gap-5 pt-3 p-6 w-[304px] border h-screen">
+		<div className="flex flex-col  gap-5 pt-3 p-6 w-[290px] border h-screen">
 			{/* Logo */}
 			<div className="flex gap-3 ">
 				<img src="./drive.svg" className="w-12 object-cover" alt="" />
@@ -13,10 +13,13 @@ const sidebar = () => {
 			</div>
 
 			{/* New Button */}
-			<div className="rounded-2xl font-medium shadow-md w-[6.25rem] bg-white  text-lg h-[3.75rem] border flex justify-evenly items-center ">
+			<button
+				id="newButton"
+				className="rounded-2xl font-medium shadow-md w-[6.5rem] bg-white  text-lg h-[3.75rem] border flex justify-evenly items-center  hover:shadow-xl relative transition-shadow transition-opacity"
+			>
 				<FontAwesomeIcon icon={faPlus} size="lg"></FontAwesomeIcon>
 				<p className="">New</p>
-			</div>
+			</button>
 
 			{/* Side Bar LInks  */}
 			<div className="">
