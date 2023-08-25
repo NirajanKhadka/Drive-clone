@@ -10,13 +10,15 @@ function App() {
 	const [link, setLink] = useState("My Drive");
 	return (
 		<>
-			<div className="flex">
+			<div className="flex h-full w-full">
 				<Sidenav setLink={setLink} />
-				<div className="w-full h-full flex flex-col">
+				<div className="flex flex-col flex-auto">
 					<TopBar />
-					<div className="flex gap-4">
-						<Info link={link} />
+
+					{/* main */}
+					<div className="flex gap-4 flex-auto p-2">
 						<Contents link={link} />
+						<Info link={link} />
 					</div>
 				</div>
 			</div>

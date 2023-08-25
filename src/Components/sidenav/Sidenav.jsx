@@ -5,7 +5,7 @@ import LinksTemplate from "./Links_Template";
 
 const Sidenav = ({ setLink }) => {
 	return (
-		<div className="flex flex-none  flex-col  gap-5 pt-3 p-6 w-[255px] border h-screen">
+		<div className="flex flex-none  flex-col  gap-5 pt-3 p-6 w-[255px] h-screen">
 			{/* Logo */}
 			<div className="flex gap-3 ">
 				<img src="./drive.svg" className="w-12 object-cover" alt="" />

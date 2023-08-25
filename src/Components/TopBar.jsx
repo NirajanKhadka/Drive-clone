@@ -2,7 +2,7 @@ import Icon from "./SubComponents/Icon";
 
 function TopBar() {
 	return (
-		<div className="p-2 pr-4 flex justify-between items-center">
+		<div className="p-2 pr-4 flex flex-none justify-between items-center">
 			{/* Search bar */}
 			<div className="rounded-full bg-[#EDF2Fc] w-[700px] h-12 flex items-center py-2 px-4 gap-2 group">
 				{/* search icon */}
