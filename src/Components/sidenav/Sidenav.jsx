@@ -3,7 +3,7 @@ import { faGoogleDrive } from "@fortawesome/free-brands-svg-icons";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import LinksTemplate from "./Links_Template";
 
-const sidebar = () => {
+const Sidenav = ({ setLink }) => {
 	return (
 		<div className="flex flex-none  flex-col  gap-5 pt-3 p-6 w-[255px] border h-screen">
 			{/* Logo */}
@@ -23,7 +23,7 @@ const sidebar = () => {
 
 			{/* Side Bar LInks  */}
 			<div className="">
-				<LinksTemplate />
+				<LinksTemplate setLink={setLink} />
 			</div>
 
 			{/* Storage  Bar and info*/}
@@ -47,4 +47,4 @@ const sidebar = () => {
 	);
 };
 
-export default sidebar;
+export default Sidenav;
